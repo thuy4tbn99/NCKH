@@ -1,0 +1,53 @@
+[I 00:37:42.376 NotebookApp] The port 8888 is already in use, trying another port.
+[I 00:37:42.376 NotebookApp] The port 8889 is already in use, trying another port.
+[I 00:37:42.379 NotebookApp] Serving notebooks from local directory: /home/thuytt/test_bert/NCKH/gitpush
+[I 00:37:42.379 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 00:37:42.379 NotebookApp] http://localhost:8890/
+[I 00:37:42.379 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 00:37:42.386 NotebookApp] No web browser found: could not locate runnable browser.
+[I 00:38:52.743 NotebookApp] Saving file at /NPA_NCKH.ipynb
+[I 00:38:54.936 NotebookApp] Kernel started: abac69dd-c434-4821-be28-7fef348243f7, name: python3
+2021-03-21 00:39:31.264012: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2021-03-21 00:39:31.394889: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.635
+pciBusID: 0000:05:00.0
+2021-03-21 00:39:31.395145: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-03-21 00:39:31.397159: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-03-21 00:39:31.398766: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-03-21 00:39:31.399133: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-03-21 00:39:31.401377: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-03-21 00:39:31.403119: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-03-21 00:39:31.408642: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-03-21 00:39:31.412123: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-03-21 00:39:31.412487: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-03-21 00:39:31.425711: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2500015000 Hz
+2021-03-21 00:39:31.428684: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55fd1d5f58a0 executing computations on platform Host. Devices:
+2021-03-21 00:39:31.428725: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2021-03-21 00:39:31.430803: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.635
+pciBusID: 0000:05:00.0
+2021-03-21 00:39:31.430921: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-03-21 00:39:31.430954: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-03-21 00:39:31.430983: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-03-21 00:39:31.431011: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-03-21 00:39:31.431038: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-03-21 00:39:31.431066: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-03-21 00:39:31.431095: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-03-21 00:39:31.434520: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-03-21 00:39:31.434599: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-03-21 00:39:31.625981: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-03-21 00:39:31.626038: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2021-03-21 00:39:31.626049: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2021-03-21 00:39:31.631311: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10319 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:05:00.0, compute capability: 7.5)
+2021-03-21 00:39:31.635105: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55fd1c025000 executing computations on platform CUDA. Devices:
+2021-03-21 00:39:31.635131: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce RTX 2080 Ti, Compute Capability 7.5
+[I 00:40:42.282 NotebookApp] Kernel interrupted: abac69dd-c434-4821-be28-7fef348243f7
+2021-03-21 00:40:42.838179: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-03-21 00:40:43.130943: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-03-21 00:40:44.372020: W tensorflow/stream_executor/cuda/redzone_allocator.cc:312] Not found: ./bin/ptxas not found
+Relying on driver to perform ptx compilation. This message will be only logged once.
+[I 00:40:54.991 NotebookApp] Saving file at /NPA_NCKH.ipynb
+[I 00:41:10.624 NotebookApp] Saving file at /NPA_NCKH.ipynb
+[I 00:41:10.911 NotebookApp] Saving file at /NPA_NCKH.ipynb
+[I 00:42:41.011 NotebookApp] Saving file at /NPA_NCKH.ipynb
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
