@@ -8,9 +8,9 @@ pip install pickle
 import os
 import numpy as np
 import pickle
-import torch
+import torch 
 
-os.environ["CUDA_VISIBLE_DEVICES"]="0"
+# os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
 import keras
 from keras.layers import *
